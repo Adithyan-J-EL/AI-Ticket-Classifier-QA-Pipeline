@@ -1,0 +1,392 @@
+[
+  {
+    "text": "I was charged twice for my order, please refund me",
+    "category": "billing",
+    "priority": "high",
+    "tag": "core"
+  },
+  {
+    "text": "Where is my invoice for last month's payment?",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "I need a refund for the wrong price I paid",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "My subscription renewed and I want my money back, refund please",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "Can you send me a receipt for my last payment?",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "There is an unknown charge on my credit card statement",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "Urgent: I was double charged on my card",
+    "category": "billing",
+    "priority": "high",
+    "tag": "core"
+  },
+  {
+    "text": "Why did my bill go up this month?",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "Please fix the price shown on my invoice immediately",
+    "category": "billing",
+    "priority": "high",
+    "tag": "core"
+  },
+  {
+    "text": "I was overcharged for shipping and want a refund",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "multi-intent"
+  },
+  {
+    "text": "my payment failed but money left my account",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "refnd my order pls, charged me wrong",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "typo"
+  },
+  {
+    "text": "This is fraud, I never authorised this payment",
+    "category": "billing",
+    "priority": "high",
+    "tag": "core"
+  },
+  {
+    "text": "Is the price pricey for what you offer? Just curious about billing tiers",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "The app shows an error and keeps crashing",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "Website is down, urgent help needed",
+    "category": "technical",
+    "priority": "high",
+    "tag": "core"
+  },
+  {
+    "text": "The dashboard is very slow and a button is broken",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "Checkout page freezes when I click pay",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "I get a 500 error whenever I upload a file",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "The mobile app is not working after the update",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "There is a bug in the export feature",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "Everything is down for our whole team, we need this fixed ASAP",
+    "category": "technical",
+    "priority": "high",
+    "tag": "core"
+  },
+  {
+    "text": "Search doesn't work at all since yesterday",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "The page timeout happens every time I save",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "I tried to download the report and the page crashed",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "substring-trap"
+  },
+  {
+    "text": "The countdown timer on the page is broken",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "substring-trap"
+  },
+  {
+    "text": "app keeps crashng on startup",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "typo"
+  },
+  {
+    "text": "Notifications are glitchy and sometimes slow",
+    "category": "technical",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "I forgot my password and cannot login",
+    "category": "account",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "My account is locked, fix this immediately",
+    "category": "account",
+    "priority": "high",
+    "tag": "core"
+  },
+  {
+    "text": "How do I request an email change on my account?",
+    "category": "account",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "I can't get into my profile anymore",
+    "category": "account",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "The verification code never arrives when I sign in",
+    "category": "account",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "I want to change my username",
+    "category": "account",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "I think my account was hacked, please help",
+    "category": "account",
+    "priority": "high",
+    "tag": "core"
+  },
+  {
+    "text": "2FA is asking for a code I don't have",
+    "category": "account",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "I cannot access my profile page",
+    "category": "account",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "Can't log in since this morning, password reset email not received",
+    "category": "account",
+    "priority": "medium",
+    "tag": "core"
+  },
+  {
+    "text": "I can’t get in to my account",
+    "category": "account",
+    "priority": "medium",
+    "tag": "unicode-apostrophe"
+  },
+  {
+    "text": "PLEASE UNLOCK MY ACCOUNT, IT IS LOCKED",
+    "category": "account",
+    "priority": "high",
+    "tag": "shouting"
+  },
+  {
+    "text": "acount locked, cant login",
+    "category": "account",
+    "priority": "high",
+    "tag": "typo"
+  },
+  {
+    "text": "My package delivery is late, any tracking update?",
+    "category": "shipping",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "Shipping status shows no movement for a week",
+    "category": "shipping",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "Do you have a late order policy for deliveries?",
+    "category": "shipping",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "The courier says delivered but I never received it",
+    "category": "shipping",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "My parcel arrived damaged",
+    "category": "shipping",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "Can I change the delivery address for my order?",
+    "category": "shipping",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "My package has not shipped yet and it has been 5 days",
+    "category": "shipping",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "Need my delivery urgently, wedding is tomorrow",
+    "category": "shipping",
+    "priority": "high",
+    "tag": "core"
+  },
+  {
+    "text": "tracking number does not work",
+    "category": "shipping",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "When will my order be shipped?",
+    "category": "shipping",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "Just wanted to say thanks for the great service",
+    "category": "general",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "Do you have a careers page?",
+    "category": "general",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "Hello there, nice weather today",
+    "category": "general",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "Do you offer student discounts?",
+    "category": "general",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "What are your opening hours?",
+    "category": "general",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "I would like to speak to a manager",
+    "category": "general",
+    "priority": "low",
+    "tag": "vague"
+  },
+  {
+    "text": "Something is wrong",
+    "category": "general",
+    "priority": "low",
+    "tag": "vague"
+  },
+  {
+    "text": "Great product, five stars!",
+    "category": "general",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "Can I partner with your company?",
+    "category": "general",
+    "priority": "low",
+    "tag": "core"
+  },
+  {
+    "text": "Please call me back at your earliest convenience",
+    "category": "general",
+    "priority": "low",
+    "tag": "vague"
+  },
+  {
+    "text": "Me cobraron dos veces, necesito un reembolso",
+    "category": "billing",
+    "priority": "high",
+    "tag": "non-english"
+  },
+  {
+    "text": "It is not a billing problem, my login just fails",
+    "category": "account",
+    "priority": "medium",
+    "tag": "negation"
+  },
+  {
+    "text": "I was charged twice and the app crashed when I tried to refund",
+    "category": "billing",
+    "priority": "high",
+    "tag": "multi-intent"
+  },
+  {
+    "text": "Where is my refund? It has been 3 weeks",
+    "category": "billing",
+    "priority": "medium",
+    "tag": "core"
+  }
+]

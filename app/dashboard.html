@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ticket Triage Dashboard</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
+    textarea { width: 100%; height: 90px; }
+    #error-msg { color: #b00020; }
+    li { margin: .3rem 0; }
+  </style>
+</head>
+<body>
+  <h1>Ticket Triage</h1>
+  <textarea id="ticket-input" placeholder="Describe the customer's problem..."></textarea>
+  <button id="submit-btn">Classify</button>
+  <p id="error-msg"></p>
+
+  <div id="result" hidden>
+    <p>Category: <strong id="result-category"></strong></p>
+    <p>Priority: <strong id="result-priority"></strong></p>
+  </div>
+
+  <h2>Recent tickets</h2>
+  <ul id="ticket-list"></ul>
+
+  <script>
+    async function loadTickets() {
+      const res = await fetch("/tickets");
+      const tickets = await res.json();
+      const list = document.getElementById("ticket-list");
+      list.innerHTML = "";
+      tickets.slice(0, 10).forEach(t => {
+        const li = document.createElement("li");
+        li.textContent = `#${t.id} [${t.category}/${t.priority}] ${t.text}`;
+        list.appendChild(li);
+      });
+    }
+
+    document.getElementById("submit-btn").addEventListener("click", async () => {
+      const err = document.getElementById("error-msg");
+      err.textContent = "";
+      const text = document.getElementById("ticket-input").value;
+      const res = await fetch("/tickets", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text })
+      });
+      if (!res.ok) {
+        document.getElementById("result").hidden = true;
+        err.textContent = "Please enter at least 5 characters.";
+        return;
+      }
+      const data = await res.json();
+      document.getElementById("result-category").textContent = data.category;
+      document.getElementById("result-priority").textContent = data.priority;
+      document.getElementById("result").hidden = false;
+      loadTickets();
+    });
+
+    loadTickets();
+  </script>
+</body>
+</html>
